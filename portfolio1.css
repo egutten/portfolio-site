@@ -1,0 +1,162 @@
+
+body {
+  font-family: raleway;
+}
+ 
+ .hero-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background: #222222
+}
+
+.hero-section .btn {
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 0;
+  background: transparent;
+  border: 2px solid white;
+  margin-top: 20px;
+}
+
+.hero-section .btn:hover {
+  color: #ffffff;
+}
+  
+.hero-section .btn .fa-arrow-right {
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+.hero-section h2 {
+  margin: 3px 0px;
+  padding: 0px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#content-title #emily {
+  color: #8BE017;
+  font-weight: 400;
+}
+
+#content-title {
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 70%;
+  top: 50vh;       
+  transform: translate(0, -50%);
+}
+
+.col- {
+  padding-left: 0;
+  padding-right:0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right:0;
+}
+
+.container {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+}
+
+.about-section {
+  margin: 122px 10px;
+  padding: 0 100px;
+}
+
+.about-section .emily-picture {
+  height: 200px;
+  margin: auto;
+  border-radius: 50%
+}
+
+.about-section .icon {
+  height: 100px;
+  width: 100px;
+  border: 5px solid green;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.about-section .icon-group {
+  text-align: center;
+}
+
+.about-section .icon-label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4E4E4E;
+  display: block;
+  margin-top: 15px;
+}
+
+.about-section .icon-text {
+  text-align: center;
+  width: 150px;
+  margin: auto;
+}
+
+.about-section .emily-picture-group {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+.about-section .about-me-text {
+  text-align: justify;
+  margin: auto;
+}
+
+.about-section .skills-graphic {
+  width: 400px;
+  height: 200px;
+  border: 5px solid green;
+  margin: 50px auto;
+}
+
+.project-section {
+  background: #E6E7E8;
+}
+
+.project-section-content .test-box {
+  width: 200px;
+  height: 200px;
+  border: 5px solid red;
+  margin: 50px auto;
+}
+
+svg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.lines {
+  opacity: 0.05; 
+}
+
+.line {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #4C3A90; 
+}
+
+.lights {
+  opacity: 0.9;
+}
+
+.light {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #7A6BB5; 
+}
