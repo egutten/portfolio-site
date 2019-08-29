@@ -9,3 +9,18 @@ const itemsDown = [".light4", ".light5", ".light6", ".light7", ".light8", ".ligh
 forEach(e => animateWithRandomNumber(e, -1080, 1080));
 const itemsUp = [".light1", ".light2", ".light3", ".light9", ".light10", ".light17"].
 forEach(e => animateWithRandomNumber(e, 1080, -1080));
+
+// Add smooth scrolling to all links
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});

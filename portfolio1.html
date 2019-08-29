@@ -55,11 +55,11 @@
     <div id="content-title">
       <h2>Hi! I'm <span id="emily">Emily Guttenberg</span>.</h2>
       <h2>I'm a full-stack software engineer.</h2>
-      <button class="btn btn-outline-light btn-lg">View my work <i class="fas fa-arrow-right"></i></button>
+      <a href="#next" class="view-work-btn btn btn-outline-light btn-lg">View my work <i class="fas fa-arrow-right"></i></a>
     </div>
   </div>
   
-  <div class="container"> 
+  <div class="container" id="next"> 
     <div class="row about-section">
       <div class="col-md-4">
         <div class="emily-picture-group">  
@@ -84,34 +84,40 @@
         <div class="row">
           <div class="col-md-4">
             <div class="icon-group">
-              <div class="icon"></div>
+              <div class="icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
               <p class="icon-label">
-                Fast
+                Curious
               </p>
               <p class="icon-text">
-                Minimized load times
+                Always an enthusiastic learner
               </p>
             </div>
           </div>  
           <div class="col-md-4">
             <div class="icon-group">
-              <div class="icon"></div>
+              <div class="icon">
+                <i class="fas fa-exclamation-triangle"></i>
+              </div>
               <p class="icon-label">
-                Responsive
+                Problem Solver
               </p>
               <p class="icon-text">
-                Coded to work on any device of any size
+                Uses patience, drive and logic to find solutions efficiently
               </p>
             </div>  
           </div>  
           <div class="col-md-4">
             <div class="icon-group">
-              <div class="icon"></div>
+              <div class="icon">
+                <i class="fas fa-brain"></i>
+              </div>
               <p class="icon-label">
-                Intuitive
+                Knowledgeable
               </p>
               <p class="icon-text">
-                Visually engaging and user-friendly UI
+                Familiar with a wide array of technologies
               </p>
             </div>
           </div>
@@ -141,6 +147,10 @@
   </div>  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenLite.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/plugins/CSSPlugin.min.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
   <script type="text/javascript" src="portfolio.js"></script> 
 
   </body>

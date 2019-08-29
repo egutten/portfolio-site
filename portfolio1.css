@@ -53,6 +53,10 @@ body {
   transform: translate(0, -50%);
 }
 
+#content-title a {
+  color: white;
+}
+
 .col- {
   padding-left: 0;
   padding-right:0;
@@ -81,11 +85,9 @@ body {
 }
 
 .about-section .icon {
-  height: 100px;
-  width: 100px;
-  border: 5px solid green;
-  border-radius: 50%;
-  margin: auto;
+  text-align: center;
+  font-size: 60px;
+    color: #8BE017;
 }
 
 .about-section .icon-group {
@@ -159,4 +161,12 @@ svg {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #7A6BB5; 
+}
+
+.fa-arrow-right {
+  transition: transform .3s;
+}
+
+.view-work-btn:hover > .fa-arrow-right {
+  transform: rotate(90deg) translateX(-3px);
 }
