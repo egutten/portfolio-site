@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="400px" height="200px" viewBox="0 0 400 200" enable-background="new 0 0 400 200" xml:space="preserve">
+<g>
+	<rect x="14" fill="#92C83E" width="370.905" height="29.451"/>
+	<text transform="matrix(1.2049 0 0 1 174.4834 19.6299)" fill="#F1F2F2" font-family="'Raleway-Regular'" font-size="14.7605">HTML</text>
+</g>
+<g>
+	<rect x="14" y="29.451" fill="#75A331" width="370.904" height="29.451"/>
+	<text transform="matrix(1.2523 0 0 1 177.2246 48.5098)" fill="#F1F2F2" font-family="'Raleway-Regular'" font-size="14.7605">CSS</text>
+</g>
+<rect x="14.243" y="58.902" fill="#537B22" width="370.905" height="29.45"/>
+<text transform="matrix(1.2611 0 0 1 156.0732 77.9609)" fill="#FFFFFF" font-family="'Raleway-Regular'" font-size="14.7605">Javascript</text>
+<rect x="14" y="87.123" fill="#4A701C" width="370.904" height="29.448"/>
+<text transform="matrix(1.2519 0 0 1 77.2158 106.1807)" fill="#FFFFFF" font-family="'Raleway-Regular'" font-size="14.7605">Object Oriented Programming</text>
+<rect x="14" y="114.111" fill="#35570E" width="370.905" height="29.449"/>
+<text transform="matrix(1.3808 0 0 1 172.2544 134.6904)" fill="#FFFFFF" font-family="'Raleway-Regular'" font-size="14.7605">React</text>
+<rect x="14" y="170.551" fill="#1A3A00" width="370.905" height="29.449"/>
+<text transform="matrix(1.2542 0 0 1 151.8467 192.0693)" fill="#FFFFFF" font-family="'Raleway-Regular'" font-size="14.7605">Wordpress</text>
+<rect x="14" y="142.332" fill="#2E4F08" width="370.905" height="29.449"/>
+<text transform="matrix(1.3581 0 0 1 169.7837 162.6201)" fill="#FFFFFF" font-family="'Raleway-Regular'" font-size="14.7605">Redux</text>
+</svg>

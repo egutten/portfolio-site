@@ -74,20 +74,20 @@ body {
 }
 
 .about-section {
-  margin: 122px 10px;
+  margin: 100px 10px 120px 10px;
   padding: 0 100px;
 }
 
 .about-section .emily-picture {
-  height: 200px;
+  height: 250px;
   margin: auto;
   border-radius: 50%
 }
 
 .about-section .icon {
   text-align: center;
-  font-size: 60px;
-    color: #8BE017;
+  font-size: 90px;
+  color: #8BE017;
 }
 
 .about-section .icon-group {
@@ -100,6 +100,10 @@ body {
   color: #4E4E4E;
   display: block;
   margin-top: 15px;
+}
+
+.about-section .about-me-label {
+  margin-top: 35px;
 }
 
 .about-section .icon-text {
@@ -119,11 +123,20 @@ body {
   margin: auto;
 }
 
-.about-section .skills-graphic {
-  width: 400px;
-  height: 200px;
-  border: 5px solid green;
-  margin: 50px auto;
+.about-section .frontend-backend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+  margin: 30px 10px 0px 0px;
+}
+
+.about-section .skills {
+  width: 100%;
+}
+
+.about-section .skills-row-2 {
+  display: none;
 }
 
 .project-section {
@@ -169,4 +182,71 @@ svg {
 
 .view-work-btn:hover > .fa-arrow-right {
   transform: rotate(90deg) translateX(-3px);
+}
+
+@media (max-width: 1350px) {
+  .about-section .skills-row-1 {
+    display: none;
+  }
+  
+  .about-section .skills-row-2 {
+    display: block;
+  }
+  
+  .about-section .skills {
+    width: 80%;
+  }
+  
+  .about-section .emily-picture-group {
+    margin-top: 90px;
+  }
+  
+  .about-section {
+    margin-top: 50px;
+  }
+  
+  .about-section .icon {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-section .skills {
+    width: 90%;
+  }
+  
+  .about-section .icon {
+    font-size: 90px;
+  }
+  
+  .about-section {
+    padding: 0px 50px;
+  }
+  
+  .about-section .icon-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about-section .emily-picture-group {
+    margin-top: 30px;
+  }
+  
+  .about-section .about-me-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .about-section .icon-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .about-section {
+    padding: 10px;
+  }
 }

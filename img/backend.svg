@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="371.27px" height="117.802px" viewBox="13.878 34.5 371.27 117.802" enable-background="new 13.878 34.5 371.27 117.802"
+	 xml:space="preserve">
+<g>
+	<rect x="13.878" y="34.5" fill="#92C83E" width="370.904" height="29.451"/>
+	<text transform="matrix(1.2049 0 0 1 168.7695 54.1299)" fill="#F1F2F2" font-family="'Raleway-Regular'" font-size="14.7605">NodeJS</text>
+</g>
+<g>
+	<rect x="13.999" y="63.951" fill="#75A331" width="370.904" height="29.451"/>
+	<text transform="matrix(1.2523 0 0 1 163.2241 83.0098)" fill="#F1F2F2" font-family="'Raleway-Regular'" font-size="14.7605">Express</text>
+</g>
+<rect x="14.242" y="93.402" fill="#4C7232" width="370.905" height="29.45"/>
+<text transform="matrix(1.2611 0 0 1 156.0723 112.4609)" fill="#FFFFFF" font-family="'Raleway-Regular'" font-size="14.7605">MongoDB</text>
+<rect x="13.878" y="122.853" fill="#1A3A00" width="370.904" height="29.449"/>
+<text transform="matrix(1.2519 0 0 1 151.7246 140.8154)" fill="#FFFFFF" font-family="'Raleway-Regular'" font-size="14.7605">PostgreSQL</text>
+</svg>
