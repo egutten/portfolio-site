@@ -39,12 +39,12 @@ body {
   font-weight: 300;
 }
 
-#content-title #emily {
+.green-text {
   color: #8BE017;
   font-weight: 400;
 }
 
-#content-title {
+.content-title {
   color: white;
   position: absolute;
   text-align: center;
@@ -53,7 +53,7 @@ body {
   transform: translate(0, -50%);
 }
 
-#content-title a {
+.content-title a {
   color: white;
 }
 
@@ -148,6 +148,53 @@ body {
   height: 200px;
   border: 5px solid red;
   margin: 50px auto;
+}
+
+.contact-section {
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 120px 0px;
+}
+
+.contact-section .contact-content {
+  padding: 0px;
+}
+
+.contact-section a {
+  color: white;
+}
+
+.contact-prompt, .email {
+  margin-bottom: 30px;
+}
+
+.contact-section .contact-prompt {
+  font-size: 30px;
+}
+
+.contact-section .email {
+  color: white;
+  font-size: 20px;
+}
+
+.contact-section .contact-icons {
+  width: 200px;
+  margin: 0px auto;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-section .triangle {
+  border-top: 60px solid #E6E7E8;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  bottom: -40px;
+  margin-bottom: 100px;
 }
 
 svg {
