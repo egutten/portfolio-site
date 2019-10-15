@@ -1,6 +1,6 @@
 
 body {
-  font-family: raleway;
+  font-family: "Raleway", sans-serif;
 }
  
  .hero-section {
@@ -74,8 +74,8 @@ body {
 }
 
 .about-section {
-  margin: 100px 10px 120px 10px;
-  padding: 0 100px;
+  margin: 100px auto 120px auto;
+  width: 80%;
 }
 
 .about-section .emily-picture {
@@ -140,14 +140,159 @@ body {
 }
 
 .project-section {
-  background: #E6E7E8;
+  background: #F5EDFF;
+  padding: 60px 0px 60px 0px;
 }
 
-.project-section-content .test-box {
+.project-section .title-row {
+  text-align: center;
+  color: #4E4E4E;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-section .underline {
+  height: 4px;
+  width: 120px;
+  background-color: #4E4E4E;
+  margin: 0px auto;
+}
+
+.project-section .leery-row {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px auto;
+  width: 80%;
+}
+
+.project-section .leery-screenshot {
+  width: 50%;
+  box-shadow: 3px 3px 15px 0 #b3bdbf;
+  margin-right: 100px;
+  min-width: 500px;
+}
+
+.project-section .leery-text {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  width: 40%
+}
+
+.project-section .leery-logo {
   width: 200px;
+  margin-bottom: 30px;
+}
+
+.project-section .leery-headline {
+  font-size: 25px;
+}
+
+.project-section .leery-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 500px;
+  margin-top: 40px;
+}
+
+.leery-buttons a:hover {
+  text-decoration: none;
+}
+
+.leery-buttons p {
+  margin: 0px;
+}
+
+.leery-buttons .leery-case-study, .leery-buttons .leery-try {
+  width: 160px;
+  height: 60px;
+  background-color: #8BE017;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.leery-buttons .leery-try {
+  background-color: white;
+  margin-left: 40px;
+}
+
+.leery-buttons .leery-try p {
+  color: black;
+}
+
+.project-section .other-projects-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 100px auto 0px auto;
+  width: 80%;
+}
+
+.project-screenshot {
+  position:relative;
+  margin: 20px;
+  width: 350px;
   height: 200px;
-  border: 5px solid red;
-  margin: 50px auto;
+  box-shadow: 3px 3px 15px 0 #b3bdbf;
+}
+
+.project-screenshot img {
+  width:100%;
+  height: 100%;
+  vertical-align:top;
+}
+
+.project-screenshot:after, .project-screenshot:before {
+  position:absolute;
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.project-screenshot:after {
+  content:'\A';
+  width:100%; height:100%;
+  top:0; left:0;
+  background:rgba(0,0,0,0.6);
+}
+
+.project-screenshot:before {
+  white-space: pre;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  z-index: 1;
+  padding:4px 10px;
+  text-align: center;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+
+.project-screenshot:hover:after, .project-screenshot:hover:before {
+  opacity:1;
+}
+
+.avengers-screenshot:before {
+  content: '\A Avengers App \A\A Node.js, Express, MongoDB \A Hosted on: Heroku';
+}
+
+.burger-screenshot:before {
+  content: 'Burger Builder \A\A React, Node.js, Firebase \A Hosted on: AWS using AWS Amplify \A\A Built as code-along to Udemy React \A course';
+}
+
+.toast-screenshot:before {
+  content: '\A Toast-Matic \A\A Object Oriented Programming \A Hosted on: AWS using an S3 bucket';
 }
 
 .contact-section {
@@ -156,7 +301,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 0px 120px 0px;
+  padding: 0px 0px 200px 0px;
 }
 
 .contact-section .contact-content {
@@ -190,11 +335,11 @@ body {
 }
 
 .contact-section .triangle {
-  border-top: 60px solid #E6E7E8;
+  border-top: 60px solid #F5EDFF;
   border-left: 50vw solid transparent;
   border-right: 50vw solid transparent;
   bottom: -40px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 svg {
@@ -231,6 +376,54 @@ svg {
   transform: rotate(90deg) translateX(-3px);
 }
 
+@media (max-width: 1440px) {
+  .project-section .leery-logo {
+    width: 150px;
+  }
+  
+  .project-section .leery-text {
+    font-size: 16px;
+  }
+  
+  .project-section .leery-headline {
+    font-size: 20px;
+  }
+  
+  .leery-buttons .leery-case-study, .leery-buttons .leery-try {
+    width: 140px;
+    height: 40px;
+  }
+  
+  .project-screenshot {
+    position:relative;
+    width: 300px;
+    height: 150px;
+    box-shadow: 3px 3px 15px 0 #b3bdbf;
+  }
+  
+  .project-screenshot:before {
+    font-size: 16px;
+  }
+
+  .burger-screenshot:before {
+    content: 'Burger Builder \A\A React, Node.js, Firebase \A Hosted on: AWS using AWS Amplify \A Built as code-along to Udemy React \A course';
+  }
+  
+  .project-section .leery-screenshot {
+    width: 55%;
+  }
+  
+  .project-section .leery-row, .project-section .other-projects-row {
+    width: 100%;
+    padding: 50px 20px;
+  }
+  
+  .project-section .other-projects-row {
+    margin-top: 30px;
+  }
+  
+}
+
 @media (max-width: 1350px) {
   .about-section .skills-row-1 {
     display: none;
@@ -241,7 +434,7 @@ svg {
   }
   
   .about-section .skills {
-    width: 80%;
+    width: 60%;
   }
   
   .about-section .emily-picture-group {
@@ -250,6 +443,8 @@ svg {
   
   .about-section {
     margin-top: 50px;
+    padding: 20px;
+    width: 100%;
   }
   
   .about-section .icon {
@@ -259,7 +454,7 @@ svg {
 
 @media (max-width: 991px) {
   .about-section .skills {
-    width: 90%;
+    width: 70%;
   }
   
   .about-section .icon {
@@ -282,6 +477,60 @@ svg {
   .about-section .about-me-text {
     text-align: center;
   }
+  
+  .project-section .leery-screenshot {
+    margin-right: 50px;
+  }
+  
+  .leery-buttons .leery-try {
+    margin-left: 20px;
+  }
+  
+  .project-section .leery-text {
+    font-size: 14px;
+  }
+  
+  .project-section .leery-logo {
+    margin-bottom: 15px;
+  }
+  
+  .project-section .leery-buttons {
+    margin-top: 15px;
+  }
+  
+  .project-section .other-projects-row {
+    margin-top: 0px;
+    padding: 0px 0px;
+  }
+  
+  .contact-section {
+    padding-bottom: 100px;
+  }
+  
+  .contact-section .triangle {
+    margin-bottom: 100px;
+  }
+
+}
+
+@media (max-width: 900px) {
+  .project-section .leery-row {
+    flex-direction: column;
+  }
+  
+  .project-section .leery-screenshot {
+    margin: 0px;
+  }
+  
+  .project-section .leery-text {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .project-section .leery-buttons {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 650px) {
@@ -289,6 +538,10 @@ svg {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  
+  .about-section .skills {
+    width: 90%;
   }
 }
 
