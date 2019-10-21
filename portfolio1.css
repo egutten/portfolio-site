@@ -80,11 +80,17 @@ html, body {
 
 .blue-text,
 .about-section .icon,
-.about-section .about-me-label
+.about-section .about-me-label,
+.about-section .fa-check-circle
  {
   color: #4fd0ff;
 }
 
+.about-section .icon-text,
+.about-section .about-me-text
+{
+    font-size: 18px;
+}
 
 .hero-section .btn:hover {
   color: #ffffff;
@@ -174,11 +180,6 @@ html, body {
   font-size: 35px;
 }
 
-.about-section .icon-text,
-.about-section .about-me-text {
-    font-size: 18px;
-}
-
 .about-section .icon-text {
   text-align: center;
   width: 150px;
@@ -198,13 +199,23 @@ html, body {
 
 .about-section .skills-row {
   margin-top: 90px;
+  font-size: 20px;
 }
 
 .about-section .skills-row ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
+}
 
+.about-section .skills-row li {
+  padding-left: 110px;
+  margin-bottom: 20px;
+}
+
+.about-section .fa-check-circle {
+  font-size: 22px;
+  margin-right: 10px;
 }
 
 .project-section {
@@ -414,7 +425,17 @@ svg {
   transform: rotate(90deg) translateX(-3px);
 }
 
+@media (max-width: 1920px) {
+  .about-section .skills-row li {
+    padding-left: 90px;
+  }
+}
+
 @media (max-width: 1440px) {  
+  .about-section .skills-row li {
+    padding-left: 50px;
+  }
+  
   .leery-buttons .leery-case-study, .leery-buttons .leery-try {
     width: 150px;
     height: 40px;
@@ -445,22 +466,14 @@ svg {
 }
 
 @media (max-width: 1224px) {
-  .about-section .skills-row-1 {
-    display: none;
+  .about-section .skills-row li {
+    padding-left: 90px;
   }
-  
-  .about-section .skills-row-2 {
-    display: block;
-  }
-  
-  .about-section .skills {
-    width: 60%;
-  }
-  
+
   .about-section {
     margin-top: 50px;
-    padding: 20px 10px 20px 30px;
-    width: 100%;
+    padding: 20px 10px 20px 10px;
+    width: 90%;
   }
   
   .about-section .icon {
@@ -502,8 +515,13 @@ svg {
   .about-section {
     margin: 60px auto 60px auto;
   }
+  
   .about-section .emily-picture-group {
     margin-top: 0px;
+  }
+  
+  .about-section .skills-row li {
+    padding-left: 10px;
   }
   
   .about-section .icon-row {
@@ -551,20 +569,25 @@ svg {
   
   .about-section {
     padding: 20px;
-    margin: 30px 0px;
+  }
+  
+  .about-section .about-me-text {
+    width: 90%;
+    text-align: center;
   }
   
   .about-section .icon-row {
     flex-direction: column;
+    margin-top: 20px;
   }
   
   .about-section .icon-group {
     margin-top: 10px;
   }
   
-  .about-section .skills {
-    width: 120%;
-    margin-left: 10px;
+  .about-section .skills-row {
+    margin-top: 70px;
+    padding-left: 60px;
   }
   
   .about-section .front-back {
@@ -614,18 +637,27 @@ svg {
     height: 220px;
   }
   
-  .project-section .leery-screenshot {
-    min-width: 340px;
+  .about-section .skills-row {
+    padding-left: 50px;
   }
   
-  .about-section .skills {
-    width: 150%;
+  
+  .project-section .leery-screenshot {
+    min-width: 340px;
   }
 }
 
 @media (max-width: 320px) {
   .about-section .icon {
     font-size: 80px;
+  }
+  
+  .about-section .icon-label {
+    margin-left: -30px;
+  }
+  
+  .about-section .skills-row {
+    padding-left: 20px;
   }
   
   .project-section .leery-screenshot {
