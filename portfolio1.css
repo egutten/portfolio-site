@@ -69,6 +69,23 @@ html, body {
   margin-top: 20px;
 }
 
+.project-section .title-row,
+.project-section .underline,
+.project-section .leery-text,
+.about-section .icon-text,
+.about-section .icon-label,
+.about-section .skills-row {
+  color: #4E4E4E;
+}
+
+.blue-text,
+.about-section .icon,
+.about-section .about-me-label
+ {
+  color: #4fd0ff;
+}
+
+
 .hero-section .btn:hover {
   color: #ffffff;
 }
@@ -85,8 +102,7 @@ html, body {
   font-weight: 300;
 }
 
-.green-text {
-  color: #8BE017;
+.blue-text {
   font-weight: 400;
 }
 
@@ -121,7 +137,8 @@ html, body {
 
 .about-section {
   margin: 100px auto 120px auto;
-  width: 80%;
+  width: 60%;
+  max-width: 1200px;
 }
 
 .about-section .emily-picture {
@@ -133,23 +150,33 @@ html, body {
 .about-section .icon {
   text-align: center;
   font-size: 90px;
-  color: #8BE017;
+}
+
+.about-section .icon-row {
+  margin-top: 90px;
+  padding: 0px 15px;
 }
 
 .about-section .icon-group {
   text-align: center;
+  color: 
 }
 
 .about-section .icon-label {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
-  color: #4E4E4E;
   display: block;
   margin-top: 15px;
 }
 
 .about-section .about-me-label {
   margin-top: 35px;
+  font-size: 35px;
+}
+
+.about-section .icon-text,
+.about-section .about-me-text {
+    font-size: 18px;
 }
 
 .about-section .icon-text {
@@ -159,37 +186,34 @@ html, body {
 }
 
 .about-section .emily-picture-group {
-  vertical-align: top;
-  display: inline-block;
   text-align: center;
 }
 
 .about-section .about-me-text {
-  text-align: justify;
+  text-align: left;
+  width: 65%;
+  max-width: 600px;
   margin: auto;
 }
 
-.about-section .frontend-backend {
-  flex-direction: column;
-  margin: 30px 10px 0px 0px;
+.about-section .skills-row {
+  margin-top: 90px;
 }
 
-.about-section .skills {
-  width: 100%;
-}
+.about-section .skills-row ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 
-.about-section .skills-row-2 {
-  display: none;
 }
 
 .project-section {
-  background: #F5EDFF;
+  background: #ebf9ff;
   padding: 60px 0px 60px 0px;
 }
 
 .project-section .title-row {
   text-align: center;
-  color: #4E4E4E;
   font-size: 30px;
   font-weight: bold;
   flex-direction: column;
@@ -198,7 +222,6 @@ html, body {
 .project-section .underline {
   height: 4px;
   width: 120px;
-  background-color: #4E4E4E;
   margin: 0px auto;
 }
 
@@ -217,7 +240,6 @@ html, body {
 }
 
 .project-section .leery-text {
-  color: black;
   font-weight: bold;
   font-size: 18px;
   width: 40%
@@ -351,7 +373,7 @@ html, body {
 }
 
 .contact-section .triangle {
-  border-top: 60px solid #F5EDFF;
+  border-top: 60px solid #ebf9ff;
   border-left: 50vw solid transparent;
   border-right: 50vw solid transparent;
   bottom: -40px;
@@ -435,10 +457,6 @@ svg {
     width: 60%;
   }
   
-  .about-section .emily-picture-group {
-    margin-top: 90px;
-  }
-  
   .about-section {
     margin-top: 50px;
     padding: 20px 10px 20px 30px;
@@ -486,10 +504,6 @@ svg {
   }
   .about-section .emily-picture-group {
     margin-top: 0px;
-  }
-  
-  .about-section .about-me-text {
-    text-align: center; 
   }
   
   .about-section .icon-row {
@@ -563,10 +577,6 @@ svg {
   
   .about-section .emily-picture-group {
     margin-top: 0px;
-  }
-  
-  .about-section .about-me-text {
-    text-align: center;
   }
   
   .project-section {
