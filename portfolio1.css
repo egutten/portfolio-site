@@ -121,7 +121,9 @@ html, body {
   transform: translate(0, -50%);
 }
 
-.content-title a {
+.content-title a,
+.content-title a:visited,
+.content-title a:active {
   color: white;
 }
 
@@ -289,7 +291,7 @@ html, body {
   background-color: #4fd0ff;
   font-weight: normal;
   color: white;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .leery-buttons .leery-case-study:hover {
@@ -359,12 +361,14 @@ html, body {
   padding: 0px;
 }
 
-.contact-section a {
+.contact-section .fa-github-square, 
+.contact-section .fa-linkedin {
+  transition: 0.4s;
   color: white;
-  transition: 0.3s;
 }
 
-.contact-section a:hover {
+.contact-section .fa-github-square:hover,
+.contact-section .fa-linkedin:hover {
   color: #d9dbd7;
 }
 

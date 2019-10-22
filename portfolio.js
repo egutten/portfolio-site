@@ -1,3 +1,5 @@
+AOS.init();
+
 function animateWithRandomNumber(myClass, from, to) {
   TweenLite.fromTo(myClass, Math.floor(Math.random() * 20 + 1), { y: from }, { y: to,
     onComplete: animateWithRandomNumber,
