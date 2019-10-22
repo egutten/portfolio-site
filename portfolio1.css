@@ -243,9 +243,13 @@ html, body {
   width: 80%;
 }
 
+.project-section .leery-screenshot,
+.project-screenshot {
+  box-shadow: 0px 0px 20px 0 #c5c7c7;
+}
+
 .project-section .leery-screenshot {
   width: 50%;
-  box-shadow: 3px 3px 15px 0 #b3bdbf;
   margin-right: 100px;
   min-width: 450px;
 }
@@ -282,13 +286,14 @@ html, body {
 .leery-buttons .leery-case-study, .leery-buttons .leery-try {
   width: 160px;
   height: 60px;
-  background-color: #8BE017;
+  background-color: #4fd0ff;
   font-weight: normal;
   color: white;
+  transition: 0.3s;
 }
 
 .leery-buttons .leery-case-study:hover {
-  background-color: #7fc918;
+  background-color: #42a9cf;
 }
 
 .leery-buttons .leery-try:hover {
@@ -310,7 +315,6 @@ html, body {
 .project-screenshot {
   position:relative;
   margin: 20px;
-  box-shadow: 3px 3px 15px 0 #b3bdbf;
   background-color: black;
   z-index: 11;
 }
@@ -357,6 +361,7 @@ html, body {
 
 .contact-section a {
   color: white;
+  transition: 0.3s;
 }
 
 .contact-section a:hover {
@@ -466,14 +471,22 @@ svg {
 }
 
 @media (max-width: 1224px) {
-  .about-section .skills-row li {
-    padding-left: 90px;
+  .about-section .col-sm-4 {
+    padding: 0px;
+  }
+  
+  .about-section .icon-row {
+    padding: 0px;
+  }
+  
+  .about-section .skills-row {
+    padding-left: 70px;
   }
 
   .about-section {
     margin-top: 50px;
-    padding: 20px 10px 20px 10px;
-    width: 90%;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
   }
   
   .about-section .icon {
@@ -652,12 +665,8 @@ svg {
     font-size: 80px;
   }
   
-  .about-section .icon-label {
-    margin-left: -30px;
-  }
-  
   .about-section .skills-row {
-    padding-left: 20px;
+    padding-left: 50px;
   }
   
   .project-section .leery-screenshot {
